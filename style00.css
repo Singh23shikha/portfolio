@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    display:flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    background-color: rgb(55, 54, 54);
+
+}
+nav a{
+    display: flex;
+    display: inline-block;
+    padding: 10px 20px;
+    color: azure;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-left: 40px;
+    
+    
+}
+.sec1{
+    background-image: url("E:\download folder\html project\webfirst.jpg");
+}
+
+section button{
+    display: flex;
+    margin-left:  10px;
+    margin-right:  1350px;
+    margin-top: 15px;
+    padding: 7px 10px 7px 12px;
+    border-radius: 5px;
+    background-color: rgb(67, 66, 66);
+    border: 1px solid white;
+    color: aliceblue;
+}
+section button:hover{
+    background-color: orangered;
+}
+section p{
+    font-size: 30px;
+    padding: 2px;
+    
+    color: rgb(5, 10, 16);
+}
+.sec2 h1{
+    text-align: center;
+    
+    font-size: 50px;
+}
+.para{
+    text-align: center;
+    font-size: 10px;
+    margin-top: 25px;
+    
+}
+.work{
+    
+    margin-top: 20px;
+    font-size: 23px;
+}
+input{
+accent-color:  green;
+}
+.skill{
+    text-align: center;
+    font-size: 35px;
+}
+.pskill p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    color: rgb(114, 110, 110);
+
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    gap: 35px 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+}
+.grid-item{
+    height: 150px;
+    width: 420px;
+    text-align: center;
+    box-shadow: 4px 4px 4px 4px rgb(220,220,220,0.3);
+    background-color: rgb(255,192,203,0.1);
+    color: rgb(192,192,192);
+    padding: 15px;
+}
+.grid-item h5{
+    color:black;
+    padding: 3px;
+    font-size: 25px;
+    margin: 20px;
+}
+.grid-item p{
+    color:rgb(157, 156, 156);
+    font-size: 15px;
+    
+}
+.grid-item:hover{
+    transform: translate(0px, -20px);
+}
+.footer-body h3{
+    text-align:center;
+    margin-bottom: 35px;
+    font-size: 20px;
+
+}
+.form{
+    border: 2px solid white;
+    box-shadow: 4px 4px 5px 5px rgb(220,220,220,0.3);
+    padding: 50px;
+    margin-bottom: 100px;
+}
+.form .name lable{
+    font-size: 15px;
+}
+.form .email lable{
+    font-size: 20px;
+}
+.form .message lable{
+    font-size: 20px;
+}
+.name{
+    margin-top: 10px;
+}
+.email{
+    margin-top: 20px;
+}
+.message{
+    margin-top: 20px;
+}
+.send input{
+    background-color:rgb(55, 54, 54) ;
+    color: aliceblue;
+    border-radius: 5px;
+    margin-top: 100px;
+    padding: 8px 25px 8px 25px;
+}
+.name input[type="text"]{
+    width: 200px;
+    height: 40px;
+    margin-left: 48px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(220,220,220,0.3);
+}
+.email input[type="text"]{
+    width: 200px;
+    height: 40px;
+    margin-left: 48px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(220,220,220,0.3);
+}
+.message textarea{
+    width: 200px;
+    height: 58px;
+    margin-left: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(220,220,220,0.3);
+}
+.send input[type="submit"]:hover{
+    background-color: white;
+    color: black;
+}
